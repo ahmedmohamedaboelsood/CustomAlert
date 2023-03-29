@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567BA1D17CEFF2823A268102 /* Pods_CustomAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB373BBD005C4100B8762E55 /* Pods_CustomAlert.framework */; };
+		E22CB50C29D4B56C008EE1BA /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = E22CB50B29D4B56B008EE1BA /* error.json */; };
+		E22CB50E29D4B5B8008EE1BA /* fail.json in Resources */ = {isa = PBXBuildFile; fileRef = E22CB50D29D4B5B8008EE1BA /* fail.json */; };
+		E22CB51529D4B7F7008EE1BA /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22CB51429D4B7F7008EE1BA /* AlertVC.swift */; };
+		E22CB51829D4BE5C008EE1BA /* extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22CB51729D4BE5C008EE1BA /* extention.swift */; };
 		E2F9944A29D4960A00F9C02F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9944929D4960A00F9C02F /* AppDelegate.swift */; };
 		E2F9944C29D4960A00F9C02F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9944B29D4960A00F9C02F /* SceneDelegate.swift */; };
 		E2F9944E29D4960A00F9C02F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9944D29D4960A00F9C02F /* ViewController.swift */; };
 		E2F9945129D4960A00F9C02F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F9944F29D4960A00F9C02F /* Main.storyboard */; };
 		E2F9945329D4960C00F9C02F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F9945229D4960C00F9C02F /* Assets.xcassets */; };
 		E2F9945629D4960C00F9C02F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F9945429D4960C00F9C02F /* LaunchScreen.storyboard */; };
+		E2F9945E29D4978600F9C02F /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = E2F9945D29D4978500F9C02F /* success.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A02E007669F7F02E8E242C5 /* Pods-CustomAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlert.debug.xcconfig"; path = "Target Support Files/Pods-CustomAlert/Pods-CustomAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		BB373BBD005C4100B8762E55 /* Pods_CustomAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3971299D8C43B8902587592 /* Pods-CustomAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlert.release.xcconfig"; path = "Target Support Files/Pods-CustomAlert/Pods-CustomAlert.release.xcconfig"; sourceTree = "<group>"; };
+		E22CB50B29D4B56B008EE1BA /* error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
+		E22CB50D29D4B5B8008EE1BA /* fail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fail.json; sourceTree = "<group>"; };
+		E22CB51429D4B7F7008EE1BA /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
+		E22CB51729D4BE5C008EE1BA /* extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extention.swift; sourceTree = "<group>"; };
 		E2F9944629D4960A00F9C02F /* CustomAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F9944929D4960A00F9C02F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2F9944B29D4960A00F9C02F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,7 @@
 		E2F9945229D4960C00F9C02F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F9945529D4960C00F9C02F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2F9945729D4960C00F9C02F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F9945D29D4978500F9C02F /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567BA1D17CEFF2823A268102 /* Pods_CustomAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31CD6EBD7ED0E92083221EE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB373BBD005C4100B8762E55 /* Pods_CustomAlert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A71399D536FDEEA2C4807477 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A02E007669F7F02E8E242C5 /* Pods-CustomAlert.debug.xcconfig */,
+				C3971299D8C43B8902587592 /* Pods-CustomAlert.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E22CB50F29D4B5BD008EE1BA /* Lotti Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9945D29D4978500F9C02F /* success.json */,
+				E22CB50D29D4B5B8008EE1BA /* fail.json */,
+				E22CB50B29D4B56B008EE1BA /* error.json */,
+			);
+			path = "Lotti Files";
+			sourceTree = "<group>";
+		};
+		E22CB51029D4B7A5008EE1BA /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9944B29D4960A00F9C02F /* SceneDelegate.swift */,
+				E2F9944929D4960A00F9C02F /* AppDelegate.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		E22CB51129D4B7B2008EE1BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9944F29D4960A00F9C02F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E22CB51229D4B7BC008EE1BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9945429D4960C00F9C02F /* LaunchScreen.storyboard */,
+				E2F9945229D4960C00F9C02F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E22CB51329D4B7DF008EE1BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9944D29D4960A00F9C02F /* ViewController.swift */,
+				E22CB51429D4B7F7008EE1BA /* AlertVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E22CB51629D4BE49008EE1BA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E22CB51729D4BE5C008EE1BA /* extention.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		E2F9943D29D4960A00F9C02F = {
 			isa = PBXGroup;
 			children = (
 				E2F9944829D4960A00F9C02F /* CustomAlert */,
 				E2F9944729D4960A00F9C02F /* Products */,
+				A71399D536FDEEA2C4807477 /* Pods */,
+				31CD6EBD7ED0E92083221EE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +143,12 @@
 		E2F9944829D4960A00F9C02F /* CustomAlert */ = {
 			isa = PBXGroup;
 			children = (
-				E2F9944929D4960A00F9C02F /* AppDelegate.swift */,
-				E2F9944B29D4960A00F9C02F /* SceneDelegate.swift */,
-				E2F9944D29D4960A00F9C02F /* ViewController.swift */,
-				E2F9944F29D4960A00F9C02F /* Main.storyboard */,
-				E2F9945229D4960C00F9C02F /* Assets.xcassets */,
-				E2F9945429D4960C00F9C02F /* LaunchScreen.storyboard */,
+				E22CB51629D4BE49008EE1BA /* Extension */,
+				E22CB51329D4B7DF008EE1BA /* Controller */,
+				E22CB51229D4B7BC008EE1BA /* Resources */,
+				E22CB51129D4B7B2008EE1BA /* View */,
+				E22CB51029D4B7A5008EE1BA /* core */,
+				E22CB50F29D4B5BD008EE1BA /* Lotti Files */,
 				E2F9945729D4960C00F9C02F /* Info.plist */,
 			);
 			path = CustomAlert;
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2F9945A29D4960C00F9C02F /* Build configuration list for PBXNativeTarget "CustomAlert" */;
 			buildPhases = (
+				36989D93EE95A4D81E561D2B /* [CP] Check Pods Manifest.lock */,
 				E2F9944229D4960A00F9C02F /* Sources */,
 				E2F9944329D4960A00F9C02F /* Frameworks */,
 				E2F9944429D4960A00F9C02F /* Resources */,
+				3DC79DE23986647D396E44E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +215,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F9945629D4960C00F9C02F /* LaunchScreen.storyboard in Resources */,
+				E2F9945E29D4978600F9C02F /* success.json in Resources */,
 				E2F9945329D4960C00F9C02F /* Assets.xcassets in Resources */,
+				E22CB50E29D4B5B8008EE1BA /* fail.json in Resources */,
 				E2F9945129D4960A00F9C02F /* Main.storyboard in Resources */,
+				E22CB50C29D4B56C008EE1BA /* error.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36989D93EE95A4D81E561D2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DC79DE23986647D396E44E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomAlert/Pods-CustomAlert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomAlert/Pods-CustomAlert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomAlert/Pods-CustomAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2F9944229D4960A00F9C02F /* Sources */ = {
@@ -139,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F9944E29D4960A00F9C02F /* ViewController.swift in Sources */,
+				E22CB51529D4B7F7008EE1BA /* AlertVC.swift in Sources */,
+				E22CB51829D4BE5C008EE1BA /* extention.swift in Sources */,
 				E2F9944A29D4960A00F9C02F /* AppDelegate.swift in Sources */,
 				E2F9944C29D4960A00F9C02F /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +418,7 @@
 		};
 		E2F9945B29D4960C00F9C02F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A02E007669F7F02E8E242C5 /* Pods-CustomAlert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +447,7 @@
 		};
 		E2F9945C29D4960C00F9C02F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3971299D8C43B8902587592 /* Pods-CustomAlert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
